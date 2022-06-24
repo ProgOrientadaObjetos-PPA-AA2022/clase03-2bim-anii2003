@@ -46,8 +46,13 @@ public class EstudiantePresencial extends Estudiante {
 
     public String toString() {
         String cadena = String.format("%s", super.toString());
-        cadena = String.format("Número de créditos: %d\n"
-                + "Costo crédito: %s\n");
+        cadena = String.format("%sNúmero de créditos: %d\n"
+                + "Costo crédito: %.2f\n"
+                + "Costo matrícula: %.2f\n",
+                cadena,
+                numeroCreditos,
+                costoCredito,
+                matricula);
         return cadena;
     }
 }

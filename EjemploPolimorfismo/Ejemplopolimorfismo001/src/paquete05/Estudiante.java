@@ -81,10 +81,10 @@ public abstract class Estudiante {
     }
     
     public String toString(){
-        String cadena = String.format("Nombres del estudiante: %s\n"
-                + "Apellidos del estudiante: %s\n"
-                + "Identificación del estudiante: %s\n"
-                + "Edad del estudiante: %d\n",
+        String cadena = String.format("Nombres: %s\n"
+                + "Apellidos: %s\n"
+                + "Identificación: %s\n"
+                + "Edad: %d\n",
                 nombresEstudiante,
                 apellidosEstudiante,
                 identificacionEstudiante,

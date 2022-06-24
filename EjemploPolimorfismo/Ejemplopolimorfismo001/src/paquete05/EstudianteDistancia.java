@@ -45,10 +45,13 @@ public class EstudianteDistancia extends Estudiante {
     
     public String toString(){
         String cadena = String.format("%s",super.toString());
-        cadena = String.format("Número de asignaturas: %d\n"
-                + "Costo de asignaturas: %.2f\n",
+        cadena = String.format("%sNúmero de asignaturas: %d\n"
+                + "Costo de asignaturas: %.2f\n"
+                + "Costo matrícula: %.2f\n",
+                cadena,
                 numeroAsignaturas,
-                costoAsignatura);
+                costoAsignatura,
+                matricula);
         return cadena;
     }
         
