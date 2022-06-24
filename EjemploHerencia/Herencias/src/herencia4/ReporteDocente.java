@@ -41,10 +41,10 @@ public class ReporteDocente extends Reporte {
     }
 
     @Override
-    public String toString() {
-        String cadena = String.format("Reporte Docentes: "
-                + "%s\n", codigo);
-
+    public String toString(){
+        String cadena = String.format("Reporte Docentes\n"
+                + "\nCódigo: %s\n", codigo);
+        
         for (int i = 0; i < lista.size(); i++) {
             cadena = String.format("%s\n%s\n", cadena, lista.get(i));
         }

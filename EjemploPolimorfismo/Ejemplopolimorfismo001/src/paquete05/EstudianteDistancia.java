@@ -42,5 +42,14 @@ public class EstudianteDistancia extends Estudiante {
     public double obtenerCostoAsignatura(){
         return costoAsignatura;
     }
+    
+    public String toString(){
+        String cadena = String.format("%s",super.toString());
+        cadena = String.format("Número de asignaturas: %d\n"
+                + "Costo de asignaturas: %.2f\n",
+                numeroAsignaturas,
+                costoAsignatura);
+        return cadena;
+    }
         
 }

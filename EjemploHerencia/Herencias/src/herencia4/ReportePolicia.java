@@ -43,12 +43,15 @@ public class ReportePolicia extends Reporte {
 
     @Override
     public String toString() {
-        String cadena = String.format("Reporte Policías: "
-                + "%s\n", codigo);
+        String cadena = String.format("Reporte Policías\n"
+                + "\nCódigo: %s\n", codigo);
         for (int i = 0; i < lista.size(); i++) {
             cadena = String.format("%s\n%s\n", cadena, obtenerLista().get(i));
         }
-        cadena = String.format("%s\nPromedio de edades: %.2f\n", cadena, promedioEdades);
+        cadena = String.format("%s\nPromedio de edades: %.2f\n",
+                cadena,
+                promedioEdades);
         return cadena;
+
     }
 }
