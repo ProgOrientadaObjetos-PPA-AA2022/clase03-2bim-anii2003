@@ -11,8 +11,7 @@ package herencia2;
  */
 public class Policia extends Persona {
 
-    private String rango;
-    
+    private String rango;    
 
     public Policia(String n, String a, int e, String mat) {
         super(n, a, e);

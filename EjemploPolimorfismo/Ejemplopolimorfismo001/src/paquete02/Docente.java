@@ -21,7 +21,14 @@ public abstract class Docente {
         return nombre;
     }
     
-    public abstract void obtenerSueldo(double d){
+    /*public abstract void establecerSueldo(double d){
         sueldo = d;
     }
+    
+    // Aparece un error en el método abstracto, ya que
+    // no puede ser implementado, únicamente se puede declarar*/
+    
+    public abstract void establecerSueldo(double d);
+    
+    // Se declara la clase abstracta y ya desaparecerá el error
 }

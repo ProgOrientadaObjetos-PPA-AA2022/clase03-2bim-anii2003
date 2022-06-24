@@ -8,5 +8,8 @@ package paquete01;
 public class EjecutorDocente {
     public static void main(String[] args) {
         Docente d = new Docente("René");
+        // Aparece un error ya que no se pueden
+        // instanciar objetos de tipo Docente (ya que es
+        // una clase abstractra)
     }
 }

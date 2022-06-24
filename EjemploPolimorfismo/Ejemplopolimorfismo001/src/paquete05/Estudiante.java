@@ -1,5 +1,9 @@
-
-package paquete03;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package paquete05;
 
 public abstract class Estudiante {
     /*
@@ -41,7 +45,7 @@ public abstract class Estudiante {
     
     /*
     Método abstracto calcularMatricula()
-        // método sin implementar, se deja la responsabilidad 
+        // método sin impĺementar, se deja la responsabilidad 
         // a las clases derivadas
     */
     public abstract void calcularMatricula();
@@ -67,6 +71,11 @@ public abstract class Estudiante {
         return edadEstudiante;
     }
     
+    /*
+    Método obtenerMatricula() : Real
+        a.  return matricula
+        b.  Fin Método obtenerMatricula
+    */
     public double obtenerMatricula(){
         return matricula;
     }
